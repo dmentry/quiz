@@ -11,20 +11,24 @@ game.questions.each do |question|
   puts question
 
   puts "Варианты ответа:"
+
   question.variants.each.with_index(1) { |variant, index| puts "#{index}. #{variant}" }
 
   user_answer = nil
+
   begin
     Timeout::timeout(question.time) do
       user_answer = STDIN.gets.to_i
     end
   rescue Timeout::Error
     puts "Время закончилось"
+
     break
   end
 
   if question.correct_answer?(user_answer - 1)
     puts "Ответ правильный!\n\n"
+
     game.score_add(question.score)
   else
     puts "Неправильно. Правильный ответ: #{question.correct_answer}\n\n"

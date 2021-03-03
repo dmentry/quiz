@@ -3,18 +3,27 @@ class Question
 
   def initialize(params)
     @question_text = params[:question_text]
+
     @correct_answer = params[:correct_answer]
+
     @score = params[:score]
+
     @variants = params[:variants]
+
     @time = params[:time]
   end
 
   def self.from_xml(xml)
     question_text = xml.elements["text"].text
+
     answers_xml = xml.get_elements("variants/variant")
+
     variants = answers_xml.map { |variants| variants.text }
+
     correct_answer = answers_xml.find { |xml| xml.attributes["right"] }.text
+
     score = xml.attributes["points"].to_i
+
     time = xml.attributes["seconds"].to_i
 
     new(
