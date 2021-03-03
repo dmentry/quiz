@@ -31,5 +31,4 @@ game.questions.each do |question|
   end
 end
 
-
 puts game.final_result
