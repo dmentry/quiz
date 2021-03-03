@@ -2,7 +2,7 @@
 Отвечайте на вопросы и набирайте баллы. Каждый вопрос оценивается по-своему и на каждый дается определенное время для ответа.
 
 ## Пример
-![Application screenshot](https://github.com/dmentry/what_to_wear/blob/master/screenshot.jpg)
+![Application screenshot](https://github.com/dmentry/quiz/blob/master/screenshot.jpg)
 
 ## Требования
 Ruby
