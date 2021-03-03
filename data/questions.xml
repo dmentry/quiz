@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<questions>
+
+  <question seconds="10" points="3">
+    <text>Сколько байт в килобайте?</text>
+    <variants>
+      <variant>1000</variant>
+      <variant>2048</variant>
+      <variant right="true">1024</variant>
+      <variant>512</variant>
+    </variants>
+  </question>
+
+  <question seconds="10" points="4">
+    <text>В каком году Гагарин полетел в космос?</text>
+    <variants>
+      <variant>1963</variant>
+      <variant>1958</variant>
+      <variant right="true">1961</variant>
+      <variant>1959</variant>
+    </variants>
+  </question>
+
+  <question seconds="5" points="2">
+    <text>Сколько дней в високосном году?</text>
+    <variants>
+      <variant>365</variant>
+      <variant>364</variant>
+      <variant right="true">366</variant>
+      <variant>367</variant>
+    </variants>
+  </question>
+
+  <question seconds="7" points="3">
+    <text>Сколько океанов на нашей планете?</text>
+    <variants>
+      <variant>4</variant>
+      <variant>6</variant>
+      <variant right="true">5</variant>
+      <variant>7</variant>
+    </variants>
+  </question>
+
+  <question seconds="9" points="3">
+    <text>Единица измерения силы тока?</text>
+    <variants>
+      <variant>Фарадей</variant>
+      <variant>Вольт</variant>
+      <variant right="true">Ампер</variant>
+      <variant>Ом</variant>
+    </variants>
+  </question>
+
+  <question seconds="10" points="5">
+    <text>Какая самая длинная река в мире?</text>
+    <variants>
+      <variant>Миссиссипи</variant>
+      <variant>Амазонка</variant>
+      <variant right="true">Нил</variant>
+      <variant>Волга</variant>
+    </variants>
+  </question>
+
+    <question seconds="5" points="4">
+    <text>Сколько хромосом в геноме человека?</text>
+    <variants>
+      <variant>44</variant>
+      <variant>45</variant>
+      <variant right="true">46</variant>
+      <variant>47</variant>
+    </variants>
+  </question>
+
+</questions>
